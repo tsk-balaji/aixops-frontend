@@ -1,0 +1,50 @@
+{
+    "input": [
+        "hello",
+        "send me the fraud open bugs",
+        "send me the exchange offer related to the order"
+    ],
+    "output": [
+        {
+            "text": "Welcome to AIXOPS. How I can help you with Jira Fetch / SQL Query / Confluence Reader"
+        },
+        {
+            "text": "These are the data i fetcehd from exchange related open bugs",
+            "data": {
+                "table_result": [
+                    [
+                        "Bug Name",
+                        "Assignee",
+                        "How Long it's been open"
+                    ],
+                    [
+                        "SAHR-1716",
+                        "Aadharsh",
+                        "2d"
+                    ],
+                    [
+                        "SAHR-1725",
+                        "Balaji",
+                        "3d"
+                    ]
+                ]
+            }
+        },
+        {
+            "text": "These are the offer result related to the order ",
+            "data": {
+                "json_result": {
+                    "offer_id": "12345678",
+                    "sku": [
+                        "SM-AADHARSH",
+                        "SM-TSKBALAJI",
+                        "SM-SATHIYAMOORTHI"
+                    ],
+                    "start_date": "2025-08-04 17:24",
+                    "end_date": "2025-12-01 10:00",
+                    "is_active": true
+                }
+            }
+        }
+    ]
+}
